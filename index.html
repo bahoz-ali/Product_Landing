@@ -11,7 +11,7 @@
     <header id="header">
       <nav id="nav-bar">
         <div class="logo">
-         <img src="/logo.png" alt="">
+          <img src="/logo.png" alt="" />
         </div>
         <div class="links">
           <a class="nav-link" name="home" href="#form">Features</a>
@@ -19,39 +19,29 @@
           <a class="nav-link" name="hi" href="#input">Pricing</a>
         </div>
       </nav>
-
-      <video id="video" src=""></video>
-
-      <form
-        action=""
-        id="form"
-        method="post"
-        action="https://www.freecodecamp.com/email-submit"
-      >
-        <input
-          type="email"
-          id="email"
-          value="bahoz@gmial.com"
-          name="email"
-          required
-          placeholder="Please enter your email.."
-          id=""
-        />
-        <input type="submit" id="submit" name="" id="input" />
-      </form>
     </header>
-    <!--
+    <main>
+      <div class="email_section">
+        <h1>Handcrafted, home-made masterpieces</h1>
+        <form
+          id="form"
+          method="post"
+          action="https://www.freecodecamp.com/email-submit"
+        >
+          <input
+            type="email"
+            id="email"
+            value="bahoz@gmial.com"
+            name="email"
+            required
+            placeholder="Enter your email address"
+            id=""
+          />
+          <button class="btn" type="submit" id="submit">Get started</button>
+        </form>
+      </div>
+    </main>
 
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <script src="js/index.js"></script>
   </body>
 </html>

@@ -1,15 +1,20 @@
 #header {
-  position: relative;
+  position: fixed;
+  width: 100%;
 }
-
+h1 {
+  font-size: 20px;
+  margin: 0;
+}
 body {
+  color: black;
   margin: 0;
   background-color: hsl(0deg 0% 100%);
+  position: relative;
 }
 
 #nav-bar {
   background-color: hsl(0deg 0% 100%);
-  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,18 +22,16 @@ body {
   margin: 0;
   height: 70px;
   width: 100%;
-  border: 1px solid red;
 }
 
 .logo {
   margin-left: 60px;
 }
 
-.logo img{
+.logo img {
   width: 250px;
   font-size: 40px;
   margin: 0 12px 0 0;
-
 }
 
 .links {
@@ -48,4 +51,43 @@ body {
   body {
     background-color: blue;
   }
+}
+
+/* Email Section */
+
+.email_section {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 100px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+
+#form input[type="email"] {
+  border-radius: 2px;
+  padding: 5px 50px 5px 5px;
+  outline: 0;
+  border: 1px solid black;
+  margin: 8px 0;
+  text-align: left;
+}
+
+#form button {
+  color: black;
+  background-color: rgb(255, 230, 5);
+  border: 0;
+  outline: 0;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 4px 25px;
 }
