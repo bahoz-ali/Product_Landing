@@ -1,0 +1,23 @@
+#header {
+  position: relative;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  background-color: brown;
+  
+}
+
+.nav-link{
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+
+@media only screen and (max-width: 1200px){
+    body{
+      background-color: blue;
+    }
+}
