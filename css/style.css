@@ -1,13 +1,16 @@
-#header {
-  position: fixed;
-  width: 100%;
-}
 
 body {
   color: black;
   margin: 0;
   background-color: rgb(243, 241, 241);
   position: relative;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: rgb(243, 241, 241);
 }
 
 #nav-bar {
@@ -111,11 +114,22 @@ body {
 }
 
 i {
-  color: #FF8C00;
+  color: #ff8c00;
   font-size: 400px;
 }
 
 .service-section_content h2,
 p {
   margin: 0 40px;
+}
+
+/* video section */
+.video_section { 
+  margin: 0 auto;
+  text-align: center;
+}
+
+.video_section iframe {
+  border: 2px solid #ff8c00;
+  
 }
