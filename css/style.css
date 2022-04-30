@@ -1,7 +1,7 @@
 body {
   color: black;
   margin: 0;
-  background-color: rgb(243, 241, 241);
+  background-color: #eeeeee;
   position: relative;
 }
 
@@ -137,16 +137,16 @@ p {
 .cards-section {
   /* background-color: rgb(133, 112, 112); */
   margin: 0 auto;
-  width: 65%;
+  width: 75%;
   display: flex;
 }
 
 .card {
-  width: 310px;
-  height: 310px;
+  width: 330px;
+  height: 315px;
   border: 1px solid black;
   border-radius: 3px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .card__header {
@@ -172,7 +172,7 @@ p {
 .card__body__price {
 }
 
-.card__body ul {
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -195,4 +195,40 @@ p {
   border: 0;
   outline: 0;
   margin-bottom: 12px;
+}
+
+/* footer section */
+
+.footer-section {
+  width: 75%;
+  height: 85px;
+  margin: 15px auto 0 auto;
+  margin-top: 30px;
+  background-color: #dddddd;
+  /* vertical-align: middle; */
+}
+
+.footer {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__links li {
+  margin-right: 15px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.footer .copy-right {
+  margin: 0;
+  text-align: left;
+  color: rgb(105, 104, 104);
 }
