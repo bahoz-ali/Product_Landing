@@ -1,4 +1,3 @@
-
 body {
   color: black;
   margin: 0;
@@ -124,12 +123,76 @@ p {
 }
 
 /* video section */
-.video_section { 
-  margin: 0 auto;
+.video_section {
+  margin: 0 auto 80px auto;
   text-align: center;
 }
 
 .video_section iframe {
   border: 2px solid #ff8c00;
-  
+}
+
+/* card sections */
+
+.cards-section {
+  /* background-color: rgb(133, 112, 112); */
+  margin: 0 auto;
+  width: 65%;
+  display: flex;
+}
+
+.card {
+  width: 310px;
+  height: 310px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.card__header {
+  background-color: #dddddd;
+  text-align: center;
+  padding: 14px;
+  height: 15%;
+}
+
+.card__header h3 {
+  margin: 0;
+}
+
+.card__body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 85%;
+}
+
+.card__body__price {
+}
+
+.card__body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card__body ul li {
+  margin: 0 0 9px 0;
+  font-size: 17px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card__body__btn {
+  padding: 12px 26px;
+  text-transform: uppercase;
+  font-size: 15px;
+  background-color: #f1c40f;
+  border: 0;
+  outline: 0;
+  margin-bottom: 12px;
 }
