@@ -2,19 +2,15 @@
   position: fixed;
   width: 100%;
 }
-h1 {
-  font-size: 20px;
-  margin: 0;
-}
+
 body {
   color: black;
   margin: 0;
-  background-color: hsl(0deg 0% 100%);
+  background-color: rgb(243, 241, 241);
   position: relative;
 }
 
 #nav-bar {
-  background-color: hsl(0deg 0% 100%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,16 +49,20 @@ body {
   }
 }
 
+/*  about main  */
+#main {
+  position: relative;
+  top: 100px;
+}
 /* Email Section */
 
 .email_section {
   text-align: center;
-  margin: 0 auto;
+  margin: 0px auto;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  position: relative;
-  top: 100px;
 }
 
 #form {
@@ -73,11 +73,16 @@ body {
   padding: 15px 0;
 }
 
+.email_section h1 {
+  font-size: 25px;
+  margin: 0;
+}
+
 #form input[type="email"] {
   border-radius: 2px;
-  padding: 5px 50px 5px 5px;
+  padding: 5px 70px 5px 5px;
   outline: 0;
-  border: 1px solid black;
+  border: 1px solid rgb(53, 51, 51);
   margin: 8px 0;
   text-align: left;
 }
@@ -90,4 +95,27 @@ body {
   font-size: 17px;
   font-weight: bold;
   padding: 4px 25px;
+}
+
+/* Services section */
+
+.service-section {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+  width: 70%;
+  margin: 0 auto 40px auto; /* top | right | bottom | left */
+}
+
+i {
+  color: #FF8C00;
+  font-size: 400px;
+}
+
+.service-section_content h2,
+p {
+  margin: 0 40px;
 }
